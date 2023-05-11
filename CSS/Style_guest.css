@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.body_content {
+    margin: 0px 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-indent: 40px;
+}
+
+/*Шапка*/
+.header {
+    padding: 10px 50px 10px 50px;
+    background-color: #ffffff;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+}
+
+.header_row {
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+a.button {
+    padding: 30px;
+	text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    transition: 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 600;
+	/*-moz-appearance: button;*/
+	/*-webkit-appearance: button;*/
+}
+
+a.button:hover {
+    color: #EB0C0C;
+    cursor: pointer;
+}
+
+/*Главная страница*/
+.body_content h1 {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 185%;
+}
+
+.imgsBlock img {
+    width: 330px;
+    height: 220px;
+}
+
+/*Блок новостей*/
+
+a.new-block {
+    text-decoration: none;
+}
+
+
+
+/*Новость*/
+.new p {
+    text-indent: 0px;
+}
+
+.new {
+	text-indent: 40px;
+	font-size: 120%;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.new:hover{
+	background-color:#f9f9f9;
+}
+
+.new img {
+    max-width: 800px;
+}
+
+.new .textNew p {
+    text-align: left;
+    text-indent: 50px;
+}
+
+
+
+/*Ансамбли*/
+.Allgroups {
+    width: 300px;
+    margin: 10% auto auto auto;
+    text-align: center;
+}
+
+.Allgroups span {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.Allgroups a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.Allgroups a:hover {
+    color: #EB0C0C;
+}
+
+.btn-request {
+    text-align: center;
+}
+
+.btn-request a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-request a:hover {
+    text-decoration: underline;
+    color:#EB0C0C;
+}
+
+.image img {
+    width: 450px;
+    height: 320px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.diplom {
+    text-align: center;
+}
+
+.diplom h2 {
+    font-size: 200%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.diplom img {
+    height: 420px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*Контакты*/
+img.icon {
+	max-width: 50px!important;
+	max-height: 50px!important;
+}
+
+.adres {
+    width: 500px;
+    float: right;
+}
+
+.social {
+    width: 500px;
+}
+
+.social a {
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.social span {
+    display: inline;
+    margin-left: 10px;
+}
+
+.accountInfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-size: 120%;
+}
+
+.accountInfo h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.field {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+.accountInfo span {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 3px 5px 3px 5px;
+}
+
+.accountInfo a {
+    padding: 5px 15px 5px 15px;
+    margin-left: 60px;
+    background-color: #cecece;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.accountInfo a:hover {
+    background-color: #000000;
+    color: #cecece;
+}

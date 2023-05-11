@@ -1,0 +1,50 @@
+.requestsAllFields {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.requestsAllFields .header a{
+    background-color: #b3b3b3;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.requestsAllFields h3 {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.requestsAllFields .person_data {
+    float: left;
+    height: 210px;
+    width: 50%;
+}
+
+.requestsAllFields .person_contact {
+    float: right;
+    height: 200px;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.requestsAllFields button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-size: 150%;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-color: blue;
+    transition: 0.2s;
+}
+
+.requestsAllFields button:hover {
+    padding: 10px 30px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}

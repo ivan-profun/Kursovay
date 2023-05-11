@@ -1,0 +1,141 @@
+body {
+    background-color: #000000;
+}
+
+/* Форма ввода */
+form {
+    padding-bottom: 20px;
+}
+
+.center {
+    width: 40em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px 30px; 
+	text-align: center;
+	background-color: #ffffff;
+	border: 10px outset #ffffff;
+	border-radius: 10px;
+}
+
+.center a {
+	text-decoration: none;
+	font-weight: bold;
+    color: white;
+    background-color: #3ccffc;
+    padding:10px;
+	margin: 1px;
+	display: block;
+	border: 5px outset #3ccffc;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.center a:hover {
+	background-color: #2a88a5;
+	cursor: pointer;
+	border-color: #2a88a5;
+}
+
+.center h3 {
+	margin-bottom: 30px;
+	font-size: 150%;
+	color:#000000;
+}
+
+input {
+    min-width: 200px;
+    min-height: 25px;
+    width: 80%;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 105%;
+    background-color: #d1d1d1;
+    color: #000000;
+}
+
+label {
+    font-size: 110%;
+    font-weight:800;
+    margin-top: 10px;
+}
+
+.allInput {
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+}
+
+.accountData {
+    float: left;
+    width: 50%;
+}
+
+#passw {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.personData {
+    float: right;
+    width: 50%;
+}
+
+#birthDate {
+    font-size: 130%;
+}
+
+button{
+    position: relative;
+    font-size: 1.2em;
+    padding: 5px 50px;
+    margin: 10px 0px 0px 0px;
+    border-radius:10px;
+    color: #000000;
+    background-color:#c1f0ff;
+    font-weight: bold;
+    outline:none;
+    border:none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+span{
+    position: relative;
+    z-index: 3;
+}
+/*
+button:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:rotate(-5deg) translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #eb0c0c95 0%, #ff910095 60%, #fbff0095 80%, #00ff1595 100%);
+}
+
+button:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:rotate(-5deg) translateY(50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #00ff1595 0%, #00fff295 20%, #1100ff95 40%,#c300ff95 100%);
+}
+
+button:hover:before{
+    background: linear-gradient(to bottom,#c300ff95 0%, #1100ff95 60%, #00fff295 80%, #00ff1595 100%);
+}
+
+button:hover:after{
+    background: linear-gradient(to bottom, #00ff1595 0%, #fbff0095 20%, #ff910095 40%, #eb0c0c95 100%);
+}
+*/
